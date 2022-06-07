@@ -63,7 +63,7 @@ A Parallel in Parallel out (PIPO) shift register is used as a temporary storage 
 
 
 ### PROGRAM 1
-
+~~~
 Program for  Implementation-of Shift-registers-using-verilog-
 Developed by: BAIRAV SKANDAN LOHA
 RegisterNumber:  212221230010
@@ -79,7 +79,7 @@ temp = {temp[6:0],si};
 end
 assign po = temp;
 endmodule 
-
+~~~
 
 
 
@@ -103,6 +103,7 @@ endmodule
 ![SSS](https://user-images.githubusercontent.com/94154683/172343477-d655b5aa-1425-4a76-bca7-0de2ab5bc82f.jpeg)
 
 ### PROGRAM 2
+~~~
 
 Program for  Implementation-of Shift-registers-using-verilog-
 Developed by: BAIRAV SKANDAN LOHA
@@ -124,6 +125,7 @@ temp <={temp[2:0],1'b0};
 end
 end
 endmodule
+~~~
 
 
 
@@ -141,7 +143,7 @@ endmodule
 
 ### PROGRAM 3:
 
-
+~~~
 Program for  Implementation-of Shift-registers-using-verilog-
 Developed by: BAIRAV SKANDAN LOHA
 RegisterNumber:  212221230010
@@ -155,7 +157,7 @@ begin
 po=pi;
 end
 endmodule 
-
+~~~
 
 
 ### RTL LOGIC REGISTERS:
